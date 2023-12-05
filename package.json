@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "start:sb": "expo start --clear",
-    "prestart:sb": "sb-rn-get-stories",
+    "prestart:sb": "node ./scripts/watch-del.js && sb-rn-get-stories",
     "storybook-generate": "sb-rn-get-stories",
     "storybook-watch": "sb-rn-watcher"
   },
