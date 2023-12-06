@@ -7,17 +7,20 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "build": "pnpm dlx expo export:web",
     "start:sb": "expo start --clear",
     "prestart:sb": "node ./scripts/watch-del.js && sb-rn-get-stories",
     "storybook-generate": "sb-rn-get-stories",
     "storybook-watch": "sb-rn-watcher"
   },
   "dependencies": {
+    "@expo/webpack-config": "^18.1.3",
     "@types/react": "~18.2.14",
     "expo": "~49.0.15",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
     "react-native": "0.72.6",
+    "react-native-web": "^0.19.9",
     "typescript": "^5.1.3"
   },
   "devDependencies": {
