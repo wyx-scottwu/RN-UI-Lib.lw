@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/static/js/main.79825a3b.js",
-    "static/js/45.e42e39dc.chunk.js": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/static/js/45.e42e39dc.chunk.js",
-    "static/js/496.d8a25813.js": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/static/js/496.d8a25813.js",
-    "static/media/color-circle.png": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/static/media/color-circle.aeee73f0894698b72020.png",
-    "static/media/hsv_triangle_mask.png": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/static/media/hsv_triangle_mask.cd409b9d9ff9690858ea.png",
-    "favicon.ico": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/favicon.ico",
-    "index.html": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/index.html",
-    "favicon-32.png": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/favicon-32.png",
-    "favicon-16.png": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/favicon-16.png",
-    "serve.json": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/serve.json",
-    "manifest.json": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/manifest.json",
-    "main.79825a3b.js.map": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/static/js/main.79825a3b.js.map",
-    "45.e42e39dc.chunk.js.map": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/static/js/45.e42e39dc.chunk.js.map",
-    "496.d8a25813.js.map": "https://wyx-scottwu.github.io/RN-UI-Lib.lw/static/js/496.d8a25813.js.map"
+    "main.js": "/static/js/main.f2b5fdf0.js",
+    "static/js/45.e42e39dc.chunk.js": "/static/js/45.e42e39dc.chunk.js",
+    "static/js/496.d8a25813.js": "/static/js/496.d8a25813.js",
+    "static/media/color-circle.png": "/static/media/color-circle.aeee73f0894698b72020.png",
+    "static/media/hsv_triangle_mask.png": "/static/media/hsv_triangle_mask.cd409b9d9ff9690858ea.png",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "favicon-32.png": "/favicon-32.png",
+    "favicon-16.png": "/favicon-16.png",
+    "serve.json": "/serve.json",
+    "manifest.json": "/manifest.json",
+    "main.f2b5fdf0.js.map": "/static/js/main.f2b5fdf0.js.map",
+    "45.e42e39dc.chunk.js.map": "/static/js/45.e42e39dc.chunk.js.map",
+    "496.d8a25813.js.map": "/static/js/496.d8a25813.js.map"
   },
   "entrypoints": [
     "static/js/496.d8a25813.js",
-    "static/js/main.79825a3b.js"
+    "static/js/main.f2b5fdf0.js"
   ]
 }
