@@ -48,6 +48,7 @@ try {
 const getStories = () => {
   return {
     "./stories/Demo/Demo.stories.tsx": require("../stories/Demo/Demo.stories.tsx"),
+    "./stories/Mask/Mask.stories.tsx": require("../stories/Mask/Mask.stories.tsx"),
   };
 };
 

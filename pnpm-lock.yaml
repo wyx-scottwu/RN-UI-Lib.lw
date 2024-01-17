@@ -16,15 +16,24 @@ dependencies:
   expo-status-bar:
     specifier: ~1.6.0
     version: registry.npmmirror.com/expo-status-bar@1.6.0
+  lodash:
+    specifier: ^4.17.21
+    version: registry.npmmirror.com/lodash@4.17.21
   react:
     specifier: 18.2.0
     version: registry.npmmirror.com/react@18.2.0
   react-native:
     specifier: 0.72.6
     version: registry.npmmirror.com/react-native@0.72.6(@babel/core@7.20.2)(@babel/preset-env@7.23.5)(react@18.2.0)
+  react-native-svg:
+    specifier: 13.9.0
+    version: registry.npmmirror.com/react-native-svg@13.9.0(react-native@0.72.6)(react@18.2.0)
   react-native-web:
     specifier: ^0.19.9
     version: registry.npmmirror.com/react-native-web@0.19.9(react-dom@18.2.0)(react@18.2.0)
+  tinycolor2:
+    specifier: ^1.6.0
+    version: registry.npmmirror.com/tinycolor2@1.6.0
   typescript:
     specifier: ^5.1.3
     version: registry.npmmirror.com/typescript@5.3.2
@@ -6174,6 +6183,18 @@ packages:
       nth-check: registry.npmmirror.com/nth-check@2.1.1
     dev: false
 
+  registry.npmmirror.com/css-select@5.1.0:
+    resolution: {integrity: sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/css-select/-/css-select-5.1.0.tgz}
+    name: css-select
+    version: 5.1.0
+    dependencies:
+      boolbase: registry.npmmirror.com/boolbase@1.0.0
+      css-what: registry.npmmirror.com/css-what@6.1.0
+      domhandler: registry.npmmirror.com/domhandler@5.0.3
+      domutils: registry.npmmirror.com/domutils@3.1.0
+      nth-check: registry.npmmirror.com/nth-check@2.1.1
+    dev: false
+
   registry.npmmirror.com/css-tree@1.1.3:
     resolution: {integrity: sha512-tRpdppF7TRazZrjJ6v3stzv93qxRcSsFmW6cX0Zm2NVKpxE1WV1HblnghVv9TreireHkqI/VDEsfolRF1p6y7Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/css-tree/-/css-tree-1.1.3.tgz}
     name: css-tree
@@ -6610,6 +6631,16 @@ packages:
       entities: registry.npmmirror.com/entities@2.2.0
     dev: false
 
+  registry.npmmirror.com/dom-serializer@2.0.0:
+    resolution: {integrity: sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dom-serializer/-/dom-serializer-2.0.0.tgz}
+    name: dom-serializer
+    version: 2.0.0
+    dependencies:
+      domelementtype: registry.npmmirror.com/domelementtype@2.3.0
+      domhandler: registry.npmmirror.com/domhandler@5.0.3
+      entities: registry.npmmirror.com/entities@4.5.0
+    dev: false
+
   registry.npmmirror.com/dom-walk@0.1.2:
     resolution: {integrity: sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dom-walk/-/dom-walk-0.1.2.tgz}
     name: dom-walk
@@ -6637,6 +6668,15 @@ packages:
       domelementtype: registry.npmmirror.com/domelementtype@2.3.0
     dev: false
 
+  registry.npmmirror.com/domhandler@5.0.3:
+    resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/domhandler/-/domhandler-5.0.3.tgz}
+    name: domhandler
+    version: 5.0.3
+    engines: {node: '>= 4'}
+    dependencies:
+      domelementtype: registry.npmmirror.com/domelementtype@2.3.0
+    dev: false
+
   registry.npmmirror.com/domutils@2.8.0:
     resolution: {integrity: sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/domutils/-/domutils-2.8.0.tgz}
     name: domutils
@@ -6645,6 +6685,16 @@ packages:
       dom-serializer: registry.npmmirror.com/dom-serializer@1.4.1
       domelementtype: registry.npmmirror.com/domelementtype@2.3.0
       domhandler: registry.npmmirror.com/domhandler@4.3.1
+    dev: false
+
+  registry.npmmirror.com/domutils@3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/domutils/-/domutils-3.1.0.tgz}
+    name: domutils
+    version: 3.1.0
+    dependencies:
+      dom-serializer: registry.npmmirror.com/dom-serializer@2.0.0
+      domelementtype: registry.npmmirror.com/domelementtype@2.3.0
+      domhandler: registry.npmmirror.com/domhandler@5.0.3
     dev: false
 
   registry.npmmirror.com/dot-case@3.0.4:
@@ -6766,6 +6816,13 @@ packages:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/entities/-/entities-2.2.0.tgz}
     name: entities
     version: 2.2.0
+
+  registry.npmmirror.com/entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/entities/-/entities-4.5.0.tgz}
+    name: entities
+    version: 4.5.0
+    engines: {node: '>=0.12'}
+    dev: false
 
   registry.npmmirror.com/env-editor@0.4.2:
     resolution: {integrity: sha512-ObFo8v4rQJAE59M69QzwloxPZtd33TpYEIjtKD1rrFDcM1Gd7IkDxEBU+HriziN6HSHQnBJi8Dmy+JWkav5HKA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/env-editor/-/env-editor-0.4.2.tgz}
@@ -12293,6 +12350,21 @@ packages:
       react-native: registry.npmmirror.com/react-native@0.72.6(@babel/core@7.20.2)(@babel/preset-env@7.23.5)(react@18.2.0)
     dev: true
 
+  registry.npmmirror.com/react-native-svg@13.9.0(react-native@0.72.6)(react@18.2.0):
+    resolution: {integrity: sha512-Ey18POH0dA0ob/QiwCBVrxIiwflhYuw0P0hBlOHeY4J5cdbs8ngdKHeWC/Kt9+ryP6fNoEQ1PUgPYw2Bs/rp5Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-native-svg/-/react-native-svg-13.9.0.tgz}
+    id: registry.npmmirror.com/react-native-svg/13.9.0
+    name: react-native-svg
+    version: 13.9.0
+    peerDependencies:
+      react: '*'
+      react-native: '*'
+    dependencies:
+      css-select: registry.npmmirror.com/css-select@5.1.0
+      css-tree: registry.npmmirror.com/css-tree@1.1.3
+      react: registry.npmmirror.com/react@18.2.0
+      react-native: registry.npmmirror.com/react-native@0.72.6(@babel/core@7.20.2)(@babel/preset-env@7.23.5)(react@18.2.0)
+    dev: false
+
   registry.npmmirror.com/react-native-swipe-gestures@1.0.5:
     resolution: {integrity: sha512-Ns7Bn9H/Tyw278+5SQx9oAblDZ7JixyzeOczcBK8dipQk2pD7Djkcfnf1nB/8RErAmMLL9iXgW0QHqiII8AhKw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-native-swipe-gestures/-/react-native-swipe-gestures-1.0.5.tgz}
     name: react-native-swipe-gestures
@@ -14018,7 +14090,6 @@ packages:
     resolution: {integrity: sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tinycolor2/-/tinycolor2-1.6.0.tgz}
     name: tinycolor2
     version: 1.6.0
-    dev: true
 
   registry.npmmirror.com/tmp@0.0.33:
     resolution: {integrity: sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tmp/-/tmp-0.0.33.tgz}
